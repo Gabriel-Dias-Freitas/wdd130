@@ -69,6 +69,42 @@ nav a:hover {
     font-weight: 700;
 }
 
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+section p {
+    font-size: large;
+    text-align: center;
+}
+
+form {
+    width: 450px;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 1.5rem;
+    background-color: rgba(245, 245, 245, 0.932);
+    display: grid;
+}
+
+button {
+    margin: 1rem;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: var(--secundary-color);
+}
+
 .hero {
     position: relative;
     display: flex;
@@ -108,9 +144,6 @@ nav a:hover {
     float: right;
 }
 
-h2 {
-    text-align: center;
-}
 
 .history img {
     padding: 15px;
@@ -153,3 +186,24 @@ h2 {
     width: 50px;
     height: auto;
 }
+
+.reachteam {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.reachteam img {
+    width: 200px;
+    height: auto;
+}
+
+.section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sendus p {
+    font-size:large;
+}
+
+
