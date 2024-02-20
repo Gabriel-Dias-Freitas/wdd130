@@ -109,6 +109,73 @@ button:hover {
     background-color: var(--secundary-color);
 }
 
+.homeGrid {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.homePageImage {
+    position: relative;
+    display: flex;
+}
+
+.homePageImage h1 {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 25px;
+    top: 150px;
+    left: 850px;
+}
+
+.homePageImage h2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    top: 400px;
+    left: 150px;
+}
+
+.homePageImage img {
+    width: 100%;
+    height: auto;
+    display: block;
+
+}
+
+.homePageImage h1 {
+    position: absolute;
+}
+
+.homePageImage h2 {
+    position: absolute;
+}
+
+.comeAndSee {
+    display: grid;
+    justify-items: center;
+}
+
+.comeAndSee a {
+    font-size: larger;
+    text-decoration: none;
+}
+
+.comeAndSee img {
+    width: 600px;
+    height: auto;
+    padding-top: 40px;
+}
+
+.additional {
+    display: grid;
+    justify-items: center;
+}
+
+.additional img {
+    width: 300px;
+    height: auto;
+}
+
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
